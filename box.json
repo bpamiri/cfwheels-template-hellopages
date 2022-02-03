@@ -1,10 +1,10 @@
 {
-    "name":"CFWheels Hello World Template",
-    "version":"1.0.5",
+    "name":"CFWheels Hello Pages Template",
+    "version":"1.0.0",
     "author":"Peter Amiri",
-    "shortDescription":"CFWheels Hello World Template",
+    "shortDescription":"CFWheels Hello Pages Template",
     "location":"ForgeboxStorage",
-    "slug":"cfwheels-template-helloworld",
+    "slug":"cfwheels-template-hellopages",
     "directory":"",
     "createPackageDirectory":false,
     "packageDirectory":"",
@@ -14,7 +14,7 @@
     "bugs":"",
     "repository":{
         "type":"git",
-        "URL":"https://github.com/bpamiri/cfwheels-template-helloworld"
+        "URL":"https://github.com/bpamiri/cfwheels-template-hellopages"
     },
     "keywords":[
         "mvc",
@@ -22,7 +22,7 @@
         "wheels",
         "cfwheels",
         "template",
-        "helloworld"
+        "hellopages"
     ],
     "Dependencies":{
         "cfwheels-core":"^2.2",
