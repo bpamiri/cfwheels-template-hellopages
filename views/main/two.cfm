@@ -6,6 +6,7 @@
       <li>#linkTo(text="Link via named route", route="three")#</li>
       <li>#linkTo(text="Link via wildcard specifying action", action="three")#</li>
       <li>#linkTo(text="Link via wildcard specifying controller and action", controller="main", action="three")#</li>
+      At the moment there seems to be a bug with the wildcard routes, so it is recommended to use names routes.
     </ul>
   </cfoutput>
 </p>
