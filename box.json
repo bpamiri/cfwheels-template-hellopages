@@ -1,8 +1,8 @@
 {
-    "name":"CFWheels Hello Pages Template",
+    "name":"CFWheels Template - Hello Pages",
     "version":"1.0.12",
     "author":"Peter Amiri",
-    "shortDescription":"CFWheels Hello Pages Template",
+    "shortDescription":"CFWheels Template - Hello Pages",
     "location":"ForgeboxStorage",
     "slug":"cfwheels-template-hellopages",
     "directory":"",
@@ -26,16 +26,16 @@
     ],
     "Dependencies":{
         "cfwheels-core":"^2.2",
-        "cfwheels-template-base":"^2.2"
+        "cfwheels-base":"^2.2"
     },
     "installPaths":{
         "cfwheels-core":"wheels",
-        "cfwheels-template-base":"base"
+        "cfwheels-base":"base"
     },
     "scripts":{
         "postInstallAll":"rm base/box.json --force && cp config/ base/config/ --recurse && cp views/ base/views/ --recurse && cp base/ ./ --recurse && rm base/ --recurse --force"
     },
-    "type":"mvc",
+    "type":"cfwheels-templates",
     "private":false,
     "license":[
         {
